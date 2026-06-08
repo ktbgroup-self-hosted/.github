@@ -11,7 +11,7 @@ deployed as containers, and documented as it grows.
 
 ---
 
-## 🏗️ How it's organized
+## How it's organized
 
 Repositories follow a flat, prefix-based naming convention so the whole estate reads at a glance:
 
@@ -21,7 +21,7 @@ Repositories follow a flat, prefix-based naming convention so the whole estate r
 | `stack.*` | Docker Compose stacks — the services that actually run | `stack.network`, `stack.apps`, `stack.biz-ops` |
 | `template.*` | Reusable starting points | `template.stack` |
 
-## 🧰 The toolchain
+## The toolchain
 
 - **Cloud** — [Hetzner](https://www.hetzner.com/) servers, firewalls, networks & DNS, managed with **Terraform**
 - **Provisioning** — server & desktop config via **pyinfra**
@@ -29,7 +29,7 @@ Repositories follow a flat, prefix-based naming convention so the whole estate r
 - **Networking** — reverse proxy + wildcard TLS fronting every service
 - **Secrets** — centralized secret management, never in the repo
 
-## 📚 Start here
+## Start here
 
 - **[documentation](https://github.com/ktbgroup-self-hosted/documentation)** — architecture, best practices, and the rules of the road
 - **[template.stack](https://github.com/ktbgroup-self-hosted/template.stack)** — spin up a new service stack the right way
@@ -38,5 +38,5 @@ Repositories follow a flat, prefix-based naming convention so the whole estate r
 ---
 
 <div align="center">
-<sub>Most repos here are private. The public ones are the ones worth sharing. 🚀</sub>
+<sub>Most repos here are private. The public ones are the ones worth sharing.</sub>
 </div>
